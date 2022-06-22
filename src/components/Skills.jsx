@@ -12,9 +12,9 @@ import { Link } from 'react-scroll';
 
 function Skills(){
     return(
-        <div name='skills' className='w-full h-screen bg-[#f2f7f2] text-gray-800'>
+        <div name='skills' className='bg-[#f2f7f2] min-h-screen ' style={{paddingTop : 100}}>
             {/* Container liste de skills*/}
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto px-10  text-gray-800 '>
                 <div >
                     <p className='text-4xl font-bold inline border-b-4 border-[#39a9db] '>Skills</p>
                     <p className='py-4'>Voici les technologies avec lesquelles je suis à l'aise :</p>
@@ -54,7 +54,7 @@ function Skills(){
                         <p className='my-4'>MariaDB</p>
                     </div>
                 </div>
-                <a   className=' cursor-pointer group flex items-center hover:decoration-text-[#C17767] underline w-min mt-5' > <Link to='works' smooth={true} duration={500}>Poursuivre... </Link> .  
+                <a   className=' hidden xl:flex cursor-pointer group flex items-center hover:decoration-text-[#C17767] underline w-min mt-5' > <Link to='works' smooth={true} duration={500}>Poursuivre... </Link> .  
                     <span className='group-hover:rotate-90 duration-100'>
                         <HiArrowNarrowRight className='ml-2 '/> 
                     </span>

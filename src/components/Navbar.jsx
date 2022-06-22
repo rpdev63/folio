@@ -56,7 +56,7 @@ function Navbar() {
         }
       >
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='home' smooth={true} duration={500} >
             Qui je suis
           </Link>
         </li>
@@ -84,17 +84,17 @@ function Navbar() {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul className='social'>
           <li className='w-[160px] '>
-              <a className='py-2 px-1 flex justify-between items-center w-full ml-[-110px] hover:ml-[-5px] hover:pl-[5px] duration-300 bg-[#C17767] ' href='/'>
+              <a className='py-2 px-1 flex justify-between items-center w-full ml-[-110px] hover:ml-[-5px] hover:pl-[5px] duration-300 bg-[#C17767] ' href='https://www.linkedin.com/in/r%C3%A9mi-prince-893508205/' target="_blank">
               Linkedin <FaLinkedin size={30} />
               </a>
           </li>
           <li className='w-[160px] '>
-            <a className='py-2 px-1 flex justify-between items-center w-full ml-[-110px] hover:ml-[-5px] hover:pl-[5px] duration-300 bg-[#C17767] ' href='/'>
+            <a className='py-2 px-1 flex justify-between items-center w-full ml-[-110px] hover:ml-[-5px] hover:pl-[5px] duration-300 bg-[#C17767] ' href='https://github.com/rpdev63' target="_blank">
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] '>
-            <a className='py-2 px-1 flex justify-between items-center w-full ml-[-110px] hover:ml-[-5px] hover:pl-[5px] duration-300 bg-[#C17767]' href='/'>
+            <a className='py-2 px-1 flex justify-between items-center w-full ml-[-110px] hover:ml-[-5px] hover:pl-[5px] duration-300 bg-[#C17767]' href='https://www.codewars.com/users/rpdev63' target="_blank">
             Codewars <SiCodewars size={30} />
             </a>
           </li>

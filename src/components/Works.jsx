@@ -11,8 +11,8 @@ import { SiFirebase, SiMariadb, SiTypescript, SiTailwindcss} from "react-icons/s
 
 function Works(){
     return (
-        <div name='works' className='w-full md:h-screen bg-[#f2f7f2] text-gray-800'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div name='works' className='  bg-[#f2f7f2] min-h-screen' style={{paddingTop : 100}} >
+            <div className='max-w-[1000px] mx-auto px-10  text-gray-800 '>
                 <div >
                 <p className='text-4xl font-bold inline border-b-4 border-[#39a9db] '>
                 Réalisations
@@ -39,7 +39,7 @@ function Works(){
                             
                         </div>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://baguette-speedrun.fr/home' target='_blank'>
                                 <button style={{width : 70}} className=' text-center rounded-lg py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200'>
                                 Accès
                                 </button>
@@ -70,7 +70,7 @@ function Works(){
                         </div>
                         
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://github.com/rpdev63/Sportshop' target='_blank'>
                                 <button style={{width : 85}} className=' text-center rounded-lg px-4 py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200' >
                                 GitHub
                                 </button>
@@ -101,7 +101,7 @@ function Works(){
                             
                         </div>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://rpdev63.github.io/snake.js/' target="_blank">
                                 <button style={{width : 70}} className=' text-center rounded-lg py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200'>
                                 Accès
                                 </button>
@@ -162,7 +162,7 @@ function Works(){
                 {/* Surcouche , apparaît au hover*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-[Pacifico] tracking-wider text-gray-200 flex justify-center'>
-                        mon portfolio
+                        Mon portfolio
                         </span>
                         <div className="text-gray-300 text-center mt-2 flex flex-row justify-center items-center pt-3">
                             <span className="px-2"><FaReact size={20} color={"silver"}/></span>
@@ -173,10 +173,11 @@ function Works(){
 
 
             </div>
-            <a  className=' cursor-pointer group flex items-center hover:decoration-text-[#C17767] underline w-min mt-6' > <Link to='contact' smooth={true} duration={500}>Poursuivre... </Link> .  
-                    <span className='group-hover:rotate-90 duration-100'>
-                        <HiArrowNarrowRight className='ml-2 '/> 
-                    </span>
+            <a  className=' hidden xl:flex cursor-pointer group flex items-center hover:decoration-text-[#C17767] underline w-min mt-6' > 
+                <Link to='contact' smooth={true} duration={500}>Poursuivre... </Link> .  
+                <span className='group-hover:rotate-90 duration-100'>
+                    <HiArrowNarrowRight className='ml-2 '/> 
+                </span>
             </a>
         </div>
           

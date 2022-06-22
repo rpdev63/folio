@@ -35,6 +35,17 @@
         border-top-right-radius: 7px;
         border: 2px solid transparent;
     }
+    /*Container*/
+    .container {
+        max-width: 1000;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 45px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: rgb(31, 41, 55)
+    }
     /* Réalisations */
     .content-div {
         background-repeat: no-repeat;

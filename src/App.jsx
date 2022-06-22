@@ -7,11 +7,11 @@ import Works from "./components/Works";
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Navbar/>      
       <Home/>
       <Skills/>
       <Works/>
-      <Contact/>
+      <Contact/>      
     </div>
   )
 }

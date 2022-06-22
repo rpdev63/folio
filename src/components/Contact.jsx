@@ -1,7 +1,7 @@
 function Contact(){
   return (
-    <div name='contact' className='w-full h-screen bg-[#f2f7f2]'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='contact' className='bg-[#f2f7f2] min-h-screen' style={{paddingTop : 100}}>
+        <div className='max-w-[1000px] mx-auto px-10  text-gray-800 pb-10'>
         <form method='POST' action="https://getform.io/f/1a2ca669-ad00-4877-b0c7-ddf542acfe2a" className='flex flex-col max-w-[600px] w-full'>
             <div className="pb-2">
                 <p className='text-4xl font-bold inline border-b-4 border-[#39a9db]'>Contact</p>
