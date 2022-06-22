@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    body {
+        @apply font-[Raleway];
+    }
+    /*==== Navbar ===== */
+    .initiales {
+        color: #39a9db;
+        font-size: 1.6em;
+        font-family: Pacifico;
+        /*letter-spacing: 3px;*/
+    }
+    .topbar li {
+        font-family: Lato;
+        cursor: pointer;
+        padding: 20px;
+        letter-spacing: 2px;
+        transition: color 0.3s;
+    }
+    .topbar li:hover {
+        color: #39a9db;
+        transition: color .3s;
+    }
+    .social li {
+        cursor: pointer;
+        padding: 5px;
+    }
+    .mobile {
+        cursor: pointer;
+    }
+    .social li a {
+        border-bottom-right-radius: 7px;
+        border-top-right-radius: 7px;
+        border: 2px solid transparent;
+    }
+    /* Réalisations */
+    .content-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        transition: opacity 0.3s
+    }
+    .content-div:hover {
+        background-image: linear-gradient( to right, rgb(67, 58, 63), rgb(0, 0, 0))!important;
+        transition: opacity 0.3s;
+        border: 3px solid #39a9db;
+    }
+    /*Contact*/
+    input {
+        outline-color: pink !important;
+    }
 }
