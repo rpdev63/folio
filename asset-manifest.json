@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/folio/static/css/main.cfe8fb53.css",
+    "main.js": "/folio/static/js/main.92f0dde1.js",
+    "static/media/bs.png": "/folio/static/media/bs.8e3493913052acf76be8.png",
+    "static/media/sportshop.png": "/folio/static/media/sportshop.bb4c7f74a17e67cb7546.png",
+    "static/media/php.png": "/folio/static/media/php.5dbcfbcdc0ea6919c1f1.png",
+    "static/media/sort.png": "/folio/static/media/sort.de941281f1f15df64591.png",
+    "static/media/folio.png": "/folio/static/media/folio.f01ce8d0b69e07f10699.png",
+    "static/media/snake.png": "/folio/static/media/snake.fc9a60a8f4a5d21a07a9.png",
+    "static/media/enigme.png": "/folio/static/media/enigme.1d80ba3bb3ea1c7c7183.png",
+    "static/media/html.png": "/folio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/folio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/mariaDb.png": "/folio/static/media/mariaDb.3cab05e6247287a5b7e8.png",
+    "static/media/firebase.png": "/folio/static/media/firebase.209703cedf1b1a96bc52.png",
+    "static/media/angular.png": "/folio/static/media/angular.3e16be36447bf3b09188.png",
+    "static/media/javascript.png": "/folio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/folio/index.html",
+    "main.cfe8fb53.css.map": "/folio/static/css/main.cfe8fb53.css.map",
+    "main.92f0dde1.js.map": "/folio/static/js/main.92f0dde1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfe8fb53.css",
+    "static/js/main.92f0dde1.js"
+  ]
+}
