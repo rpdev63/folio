@@ -5,7 +5,7 @@
     body {
         @apply font-[Raleway];
     }
-    /*==== Navbar ===== */
+    /*======================== Navbar ===================== */
     .initiales {
         color: #39a9db;
         font-size: 1.6em;
@@ -46,7 +46,7 @@
         flex-direction: column;
         color: rgb(31, 41, 55)
     }
-    /* Réalisations */
+    /*========================= Réalisations ====================*/
     .content-div {
         background-repeat: no-repeat;
         background-size: cover;
@@ -59,7 +59,30 @@
         transition: opacity 0.3s;
         border: 3px solid #39a9db;
     }
-    /*Contact*/
+    /* Réalisations : infobulle */
+    .floating-btn .tooltip {
+        pointer-events: none;
+        position: absolute;
+        background-color: white;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 1.2;
+        text-align: left;
+        width: 250px;
+        height: 150px;
+        border-radius: 10px;
+        opacity: 0;
+        font-family: Raleway;
+        color: #000;
+    }
+    #first-item .floating-btn .tooltip {
+        height: 130px;
+    }
+    .floating-btn:hover .tooltip {
+        opacity: 1;
+        transition: opacity 0.4s ease-out;
+    }
+    /*==================Contact=================================*/
     input {
         outline-color: pink !important;
     }
