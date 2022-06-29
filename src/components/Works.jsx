@@ -50,7 +50,7 @@ function Works(){
                                 Accès
                                 </button>
                             </a>
-                            <a href='/'>
+                            <a href='https://www.youtube.com/watch?v=YPu5Ygjqgis'>
                                 <button style={{width : 78}} className=' text-center rounded-lg px-4 py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200' >
                                 Vidéo
                                 </button>
@@ -83,12 +83,12 @@ function Works(){
                         
                         <div className='pt-8 text-center'>
                             <a href='https://github.com/rpdev63/Sportshop' target='_blank'>
-                                <button style={{width : 85}} className=' text-center rounded-lg px-4 py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200' >
+                                <button style={{width : 80}} className=' text-center rounded-lg px-4 py-3 m-2 bg-white border-1  text-sm hover:text-[#39a9db] hover:font-bold duration-200' >
                                 GitHub
                                 </button>
                             </a>
                             <a href='/'>
-                                <button style={{width : 78}} className=' text-center rounded-lg px-4 py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200' >
+                                <button style={{width : 72}} className=' text-center rounded-lg px-4 py-3 m-2 bg-white border-1  text-sm hover:text-[#39a9db] hover:font-bold duration-200' >
                                 Vidéo 
                                 </button>
                             </a>
