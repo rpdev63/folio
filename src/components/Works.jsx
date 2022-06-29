@@ -32,7 +32,7 @@ function Works(){
                         <button className="floating-btn">
                             <FaQuestionCircle style={{marginLeft : 12,  position : "relative", top : 3}}  color="white"/> 
                             <p className="tooltip translate-y-[20px] translate-x-[-153px] h-[280px]" >
-                            Un site que j'ai construit de A à Z avec Angular autour d'un sujet léger. Bien que son utilité soit discutable, c'est avant tout pour moi un terrain de jeu qui me permet de progresser à la fois sur le front-end le back-end. Vous trouverez plus d'infos avec le lien vidéo 😉 <em> ( bientôt disponible ) </em> .  
+                            Un site que j'ai construit de A à Z avec Angular autour d'un sujet léger. Bien que son utilité soit discutable, c'est avant tout pour moi un terrain de jeu qui me permet de progresser à la fois sur le front-end le back-end. Vous trouverez plus d'infos avec le lien vidéo 😉 .  
                             </p>
                         </button> 
                         </span>
@@ -69,7 +69,7 @@ function Works(){
                         <button className="floating-btn">
                             <FaQuestionCircle style={{marginLeft : 12,  position : "relative", top : 3}}  color="white"/> 
                             <p className="tooltip translate-y-[20px] translate-x-[-164px] h-[280px]" >
-                            Sportshop est un projet fil rouge entamé en formation qui m'a permis de me familiariser avec le framework Symfony et les bases de données SQL. Ici on simule l'achat d'articles de sport par des utilisateurs. Un back-office est également présent. Vous trouverez plus d'infos avec le lien vidéo 😉 <em> ( bientôt disponible ) </em> .
+                            Sportshop est un projet fil rouge entamé en formation qui m'a permis de me familiariser avec le framework Symfony et les bases de données SQL. Ici on simule l'achat d'articles de sport par des utilisateurs. Un back-office est également présent. Vous trouverez plus d'infos avec le lien vidéo 😉 .
                             </p>
                         </button> 
                         </span>
@@ -87,7 +87,7 @@ function Works(){
                                 GitHub
                                 </button>
                             </a>
-                            <a href='/'>
+                            <a href='https://www.youtube.com/watch?v=_ElFXb3SA_I'>
                                 <button style={{width : 72}} className=' text-center rounded-lg px-4 py-3 m-2 bg-white border-1  text-sm hover:text-[#39a9db] hover:font-bold duration-200' >
                                 Vidéo 
                                 </button>
