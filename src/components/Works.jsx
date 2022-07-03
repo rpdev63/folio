@@ -136,11 +136,11 @@ function Works(){
                 {/* Surcouche , apparaît au hover*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-[Pacifico] tracking-wider text-gray-200 flex justify-center'>
-                        sort.js
+                        algo.js
                         <button className="floating-btn">
                             <FaQuestionCircle style={{marginLeft : 12,  position : "relative", top : 3}}  color="white"/> 
                             <p className="tooltip translate-y-[20px] translate-x-[-145px]" >
-                                C'est ici qu'on voit que je suis un peu dérangé et que j'aime me casser la tête ! Cette page est remplie d'algorithmes javascript pour vous expliquer comment fonctionne des algorithmes de tri 🙃. J'espère ne pas vous refilez la migraine ! <em> ( bientôt disponible ) </em>
+                                C'est ici qu'on voit que je suis un peu dérangé et que j'aime me casser la tête ! Cette page est remplie d'algorithmes javascript pour vous expliquer comment fonctionne des algorithmes de tri 🙃. J'espère ne pas vous refilez la migraine ! 
                             </p>
                         </button> 
                         </span>
@@ -150,7 +150,7 @@ function Works(){
                             <span className="px-2"><FaJs size={20} color={"silver"}/></span>                                                                                   
                         </div>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://rpdev63.github.io/algo.js/'>
                                 <button style={{width : 70}} className=' text-center rounded-lg py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200'>
                                 Accès
                                 </button>
