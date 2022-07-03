@@ -50,7 +50,7 @@ function Works(){
                                 Accès
                                 </button>
                             </a>
-                            <a href='https://www.youtube.com/watch?v=YPu5Ygjqgis'>
+                            <a href='https://www.youtube.com/watch?v=YPu5Ygjqgis ' target='_blank'>
                                 <button style={{width : 78}} className=' text-center rounded-lg px-4 py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200' >
                                 Vidéo
                                 </button>
@@ -87,7 +87,7 @@ function Works(){
                                 GitHub
                                 </button>
                             </a>
-                            <a href='https://www.youtube.com/watch?v=_ElFXb3SA_I'>
+                            <a href='https://www.youtube.com/watch?v=_ElFXb3SA_I' target='_blank'>
                                 <button style={{width : 72}} className=' text-center rounded-lg px-4 py-3 m-2 bg-white border-1  text-sm hover:text-[#39a9db] hover:font-bold duration-200' >
                                 Vidéo 
                                 </button>
@@ -150,7 +150,7 @@ function Works(){
                             <span className="px-2"><FaJs size={20} color={"silver"}/></span>                                                                                   
                         </div>
                         <div className='pt-8 text-center'>
-                            <a href='https://rpdev63.github.io/algo.js/'>
+                            <a href='https://rpdev63.github.io/algo.js/' target='_blank'>
                                 <button style={{width : 70}} className=' text-center rounded-lg py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200'>
                                 Accès
                                 </button>
@@ -178,7 +178,7 @@ function Works(){
                             <span className="px-2"><FaJs size={20} color={"silver"}/></span>
                         </div>
                         <div className='pt-8 text-center'>
-                            <a href='https://rpdev63.github.io/enigme.js/'>
+                            <a href='https://rpdev63.github.io/enigme.js/' target='_blank'>
                                 <button style={{width : 70}} className=' text-center rounded-lg py-3 m-2 bg-white border-1  text-md hover:text-[#39a9db] hover:font-bold duration-200'>
                                 Accès
                                 </button>
